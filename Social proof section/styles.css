@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Spartan", Arial;
+}
+
+.container {
+  max-width: 1000px;
+  height: 600px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top {
+  width: 1000px;
+  height: 299px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1px;
+}
+
+.header {
+  padding: 30px;
+  width: 50%;
+}
+
+.h1-10 {
+  color: hsl(300, 43%, 22%);
+  width: 65%;
+  margin-bottom: 10px;
+}
+
+.rated {
+  width: 93%;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  color: hsl(303, 10%, 53%);
+}
+
+.rating {
+  padding: 20px;
+  width: 50%;
+}
+
+.stars {
+  width: 400px;
+  display: flex;
+  padding: 15px;
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.stars2 {
+  margin-left: 25px;
+}
+
+.stars3 {
+  margin-left: 50px;
+}
+
+p.nota {
+  margin-left: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 2px;
+  color: hsl(300, 43%, 22%);
+}
+
+/* -- Inicio div bottom -- */
+.bottom {
+  width: 1000px;
+  height: 299px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.perfil {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+p.name {
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+p.verified {
+  color: hsl(333, 80%, 67%);
+  font-size: 12px;
+}
+
+.testimonial {
+  padding: 5px;
+  margin-top: 20px;
+}
+
+p.description {
+  color: white;
+  font-size: 0.638rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.perfil img {
+  width: 40px;
+  border-radius: 20px;
+}
+
+.card2 {
+  margin-top: 15px;
+}
+
+.card3 {
+  margin-top: 30px;
+}
+
+/* -- Começo da div Bootom*/
