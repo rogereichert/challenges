@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ddd;
+}
+
+header, section{
+    padding: 5rem;
+}
+
+header{
+    background-color: #2196f3;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    gap: 1rem;
+}
+
+.video-player{
+    background-color: #ffeb3b;
+}
+
+.video-info{
+    background-color: #e91e63;
+}
+
+.actions{
+    background-color: #03a9f4;
+}
+
+.channel{
+    background-color: black;
+}
+
+.subscribe{
+    background-color: green;
+}
+
+.ad{
+    background-color: red;
+}
+
+.up-next{
+    background-color: brown;
+}
