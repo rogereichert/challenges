@@ -1,70 +1,128 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #ddd;
+body {
+  background-color: #f9f9f9;
+  font-family: "Roboto";
+  color: #222;
 }
 
-header, section{
-    padding: 5rem;
+header {
+  padding: 1rem;
+  background-color: #fff;
+  border-bottom: #f2f2f2;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header{
-    background-color: #2196f3;
+.logo img {
+  width: 100px;
 }
 
-main{
-    max-width: 1200px;
-    margin: auto;
-
-    display: grid;
-    
-
-    grid-template-areas: 
-        'video-player video-player'
-        'video-info   vide-info'
-        'actions      actions'
-        'channel      subscribe'
-        'up-next       up-next'
-       
-    ;
+.search input[type="search"] {
+  width: 400px;
+  padding: 0.5rem;
+  border-radius: 2px;
+  border: 1px solid #ccc;
 }
 
-.video-player{
-    background-color: #ffeb3b;
-    grid-area: video-player;
+.button {
+  padding: 0.25rem 1.5rem;
+  border: 1px solid #3c5fd5;
+  border-radius: 2px;
+  color: #2c5fd5;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.video-info{
-    background-color: #e91e63;
-    grid-area: video-info;
+main {
+  margin: auto;
+  display: grid;
+
+  gap: 1rem;
+  grid-template-areas:
+    "video-player video-player"
+    "video-info   video-info"
+    "actions      actions"
+    "channel      subscribe"
+    "up-next       up-next";
 }
 
-.actions{
-    background-color: #03a9f4;
-    grid-area: actions;
+.video-player {
+  grid-area: video-player;
+
+  position: relative;
+  padding: 1rem 0 56.25%;
+  height: 0;
+  overflow: hidden;
+  text-align: center;
 }
 
-.channel{
-    background-color: #673ab7;
-    grid-area: channel;
+.video-player iframe,
+.video-player object,
+.video-player embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.subscribe{
-    background-color: #8bc34a;
-    grid-area: subscribe;
+.video-info {
+  background-color: #e91e63;
+  grid-area: video-info;
 }
 
-.ad{
-    background-color: #ff5722;
-    grid-area: ad;
+.actions {
+  background-color: #03a9f4;
+  grid-area: actions;
+}
+
+.channel {
+  background-color: #673ab7;
+  grid-area: channel;
+}
+
+.subscribe {
+  background-color: #8bc34a;
+  grid-area: subscribe;
+}
+
+.ad {
+  background-color: #ff5722;
+  grid-area: ad;
+}
+
+.up-next {
+  background-color: #3f51b5;
+  grid-area: up-next;
+}
+
+@media screen and (max-width: 700px) {
+  .search,
+  .ad {
     display: none;
+  }
 }
 
-.up-next{
-    background-color: #3f51b5;
-    grid-area: up-next;
+@media screen and (min-width: 700px) {
+  header {
+    grid-template-columns: auto auto auto;
+  }
+
+  main {
+    max-width: 1200px;
+
+    grid-template-areas:
+      "video-player video-player ad"
+      "video-player video-player up-next"
+      "video-info   actions      up-next"
+      "channel      subscribe    up-next";
+  }
 }
