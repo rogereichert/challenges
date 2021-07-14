@@ -2,3 +2,4 @@
 
     Projeto 1: Social proof section
     Projeto 2: Four cards section
+    Projeto 3: YouTube Clone
