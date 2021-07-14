@@ -75,8 +75,18 @@ main {
 }
 
 .video-info {
-  background-color: #e91e63;
   grid-area: video-info;
+  padding: 0 0 1rem 1rem;
+}
+
+.video-info h1{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.video-info .views{
+    color: #606060;
 }
 
 .actions {
