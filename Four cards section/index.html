@@ -11,62 +11,100 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    
+    <style>
+
+      *{
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', Arial;
+      }
+
+      .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 25vh);
+        grid-template-areas: none
+          "header"
+          "main"
+          "footer"
+        ;
+
+        background-color: hsl(229, 6%, 66%);
+      }
+
+      header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      header > .texto{
+        width: 375px;
+        height: 18vh;
+        margin: auto;
+        text-align: center;
+      }
+
+      header > .texto > .realiable{
+        font-size: 1.5rem;
+        font-weight: 200;
+        color: hsl(234, 12%, 34%);
+      }
+
+      header > .texto > .powered{
+        font-size: 1.5rem;
+        font-weight: 00;
+        color: hsl(234, 12%, 34%);
+        margin-bottom: 10px;
+      }
+
+      header > .texto > .textoP{
+          margin: auto;
+          width: 310px;
+          font-size: 15px;
+          color: hsl(234, 12%, 34%);
+          font-weight: 200;
+      }
+
+      main{
+        background-color: blue;
+      }
+
+      footer{
+        background-color: green;
+      }
+
+    </style>
+
   </head>
   <body>
 
-    <header>
-      <div class="title">
-        <h1 class="t1">Reliable, efficent delivery</h1>
-        <h1 class="t2">Powered by Technology</h1>
-      </div>
-      <p class="text">
-        Our artical intelligence-powered tools use millions of project data
-        points to ensure that your project is successful
-      </p>
-    </header>
-
     <div class="container">
-      <div class="cards">
-        <section class="card1">
-          <h2>Supervisor</h2>
-          <p>Monitors activity to identify project roadblocks</p>
-          <div class="img">
-            <img src="images/icon-supervisor.svg" alt="" />
-          </div>
-        </section>
 
-        <section class="cards card-2-3">
-          <div class="card2">
-            <h2>Team Builder</h2>
-            <p>
-              Scans our tralent network to create the optimal team for your
-              project
-            </p>
-            <div class="img">
-              <img src="images/icon-team-builder.svg" alt="" />
-            </div>
-          </div>
-
-          <div class="card3">
-            <h2>Karma</h2>
-            <p>Regularity evaluates our talent to ensure quality</p>
-            <div class="img">
-              <img src="images/icon-karma.svg" alt="" />
-            </div>
-          </div>
-        </section>
-
-        <section class="cards card1">
-          <h2>Calculators</h2>
-          <p>
-            Users data from past projects to provide better delivery estimates
+      <header>
+        <div class="texto">
+          <h1 class="realiable">Realiable, efficente delivery</h1>
+          <h1 class="powered">Powered by Technology</h1>
+          <p class="textoP">Our Artificial intelligence powered tools 
+            use millions of project data points to 
+            ensure that your project is sucessful
           </p>
-          <div class="img">
-            <img src="images/icon-calculator.svg" alt="" />
-          </div>
-        </section>
-      </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="card">
+          
+        </div>
+      </main>
+
+      <footer>
+
+      </footer>
+
     </div>
+    
   </body>
 </html>
