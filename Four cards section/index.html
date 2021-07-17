@@ -11,100 +11,68 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
       rel="stylesheet"
     />
-    
-    <style>
-
-      *{
-        margin: 0; 
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Poppins', Arial;
-      }
-
-      .container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 25vh);
-        grid-template-areas: none
-          "header"
-          "main"
-          "footer"
-        ;
-
-        background-color: hsl(229, 6%, 66%);
-      }
-
-      header{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      header > .texto{
-        width: 375px;
-        height: 18vh;
-        margin: auto;
-        text-align: center;
-      }
-
-      header > .texto > .realiable{
-        font-size: 1.5rem;
-        font-weight: 200;
-        color: hsl(234, 12%, 34%);
-      }
-
-      header > .texto > .powered{
-        font-size: 1.5rem;
-        font-weight: 00;
-        color: hsl(234, 12%, 34%);
-        margin-bottom: 10px;
-      }
-
-      header > .texto > .textoP{
-          margin: auto;
-          width: 310px;
-          font-size: 15px;
-          color: hsl(234, 12%, 34%);
-          font-weight: 200;
-      }
-
-      main{
-        background-color: blue;
-      }
-
-      footer{
-        background-color: green;
-      }
-
+    <link rel="stylesheet" href="style.css">
     </style>
-
   </head>
+
   <body>
-
     <div class="container">
-
-      <header>
+      
+      <div class="header">
         <div class="texto">
-          <h1 class="realiable">Realiable, efficente delivery</h1>
-          <h1 class="powered">Powered by Technology</h1>
-          <p class="textoP">Our Artificial intelligence powered tools 
-            use millions of project data points to 
-            ensure that your project is sucessful
-          </p>
+              <h1 class="realiable">Realiable, efficente delivery</h1>
+              <h1 class="powered">Powered by Technology</h1>
+              <p class="textoP">
+                Our Artificial intelligence powered tools use millions of project
+                data points to ensure that your project is sucessful
+              </p>
+            </div>
+      </div>
+
+      <div class="main">
+
+        <div class="cards card1">
+          <div class="contexto">
+            <h2>Supervisor</h2>
+            <p>Monitors activity to identify project roablocks</p>
+            <div class="img">
+              <img src="images/icon-supervisor.svg" alt="">
+            </div>
+          </div>
         </div>
-      </header>
 
-      <main>
-        <div class="card">
-          
+        <div class="cards card2">
+          <div class="contexto">
+            <h2>Team Builder</h2>
+            <p>Scans our talent network to create the optimal team for your project</p>
+            <div class="img">
+              <img src="images/icon-team-builder.svg" alt="">
+            </div>
+          </div>
         </div>
-      </main>
 
-      <footer>
+        <div class="cards card3">
+          <div class="contexto">
+            <h2>Karma</h2>
+            <p>Monitors activity ot identify project roablocks</p>
+            <div class="img">
+              <img src="images/icon-karma.svg" alt="">
+            </div>
+          </div>
+        </div>
 
-      </footer>
+        <div class="cards card4">
+          <div class="contexto">
+            <h2>Calculator</h2>
+            <p>Monitors activity ot identify project roablocks</p>
+            <div class="img">
+              <img src="images/icon-calculator.svg" alt="">
+            </div>
+          </div>
+        </div>
 
+      </div>
+      <div class="footer"></div>
     </div>
-    
   </body>
 </html>

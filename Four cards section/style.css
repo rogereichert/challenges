@@ -1,55 +1,105 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    color: hsl(229, 6%, 66%);
-    background-color: hsl(0, 0%, 98%);
+.container {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  gap: 6px 6px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+  background-color: #fafafa;
 }
 
-header{
-    max-width: 500px;
-    margin: 80px auto;
-    text-align: center;
-    color: hsl(234, 12%, 34%);
+.header {
+  grid-area: header;
+  margin: auto;
+  padding: 20px;
+  margin-top: 6px;
 }
 
-.title > .t1{
-    font-weight: 200;
+.header > .texto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.title > .t2{
-    color: hsl(234, 12%, 34%);
+.header > .texto > .realiable {
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 
-.text{
-    width: 64%;
-    margin:auto;
-    margin-top: 20px;
-    color: hsl(229, 6%, 66%);
+.header > .texto > .powered {
+  font-size: 1.63rem;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
-.container{
-    max-width: 1440px;
-    margin: auto;
-    display: grid;
-
-    grid-template-areas: 
-        "card1 card2-3 card4"
-    ;
+.header > .texto > .textoP {
+  width: 300px;
+  font-weight: 200;
+  font-size: 15px;
 }
 
-.cards{
-    width: 450px;
-    background-color: white;  
-    box-shadow: 0 8px 8px -8px #666;
+.main {
+  grid-area: main;
+  margin: auto;
+  padding: 20px;
+  margin-top: 6px;
 }
 
-@media screen and (min-width: 700px){
-    .text{
-        width: 100%;
-    }
+.cards {
+  width: 330px;
+  height: 240px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contexto > p {
+  color: hsl(229, 6%, 66%);
+}
+
+.contexto > h2 {
+  color: hsl(234, 12%, 34%);
+}
+
+.card1 {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  box-shadow: 0 0 10px 1px hsl(229, 6%, 66%);
+  margin-bottom: 30px;
+}
+
+.card2 {
+  border-top: 5px solid hsl(0, 78%, 62%);
+  box-shadow: 0 0 10px 1px hsl(229, 6%, 66%);
+  margin-bottom: 30px;
+}
+
+.card3 {
+  border-top: 5px solid hsl(34, 97%, 64%);
+  box-shadow: 0 0 10px 1px hsl(229, 6%, 66%);
+  margin-bottom: 30px;
+}
+
+.card4 {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  box-shadow: 0 0 10px 1px hsl(229, 6%, 66%);
+  margin-bottom: 30px;
+}
+
+.img {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 40px;
+}
+
+footer {
+  grid-area: footer;
 }
