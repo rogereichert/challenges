@@ -1,101 +1,101 @@
 @media screen and (max-width: 768px) {
-    .container {
-      height: auto;
-      padding: 20px;
-      display: flex;
-      justify-content: center;
-    }
-  
-    .topo {
-      text-align: center;
-    }
-  
-    .topo .texto h1 {
-      font-size: 1.9rem;
-      font-weight: 700;
-      margin-top: 50px;
-      margin-bottom: 20px;
-    }
-  
-    .topo .texto .titulo {
-      font-weight: 500;
-      color: hsl(303, 10%, 53%);
-      margin-bottom: 20px;
-    }
-  
-    .rating{
-      margin-bottom: 30px;
-    }
-  
-    .rating .rated {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-color: hsl(300, 24%, 96%);
-      border-radius: 10px;
-      margin-bottom: 12px;
-      height: 70px;
-    }
-  
-    .rating .rated .imagem {
-      margin-bottom: 5px;
-    }
-  
-    .rating .rated p {
-      color: hsl(300, 43%, 22%);
-      font-weight: 700;
-      font-size: 0.8rem;
-    }
-  
-    /* bottom */
-  
-    .card {
-      background-color: hsl(300, 43%, 22%);
-      border-radius: 10px;
-      height: auto;
-      margin-bottom: 15px;
-    }
-  
-    .card .perfil {
-      display: flex;
-      padding: 30px;
-      margin-bottom: 20px;
-      
-    }
-  
-    .card .perfil img {
-      width: 40px;
-      border-radius: 40px;
-    }
-  
-    .card .perfil .conta {
-      margin-top: 4px;
-      margin-left: 25px;
-      
-    }
-  
-    .card .perfil .conta .name {
-      color: white;
-      font-weight: 500;
-      font-size: 0.800rem;
-      margin-bottom: 3px;
-    }
-  
-    .card .perfil .conta .verified {
-      color: white;
-      font-weight: 400;
-      font-size: 0.800rem;
-      color: hsl(333, 80%, 67%);
-    }
-  
-    .description{
-      margin-top: -30px;
-      padding: 20px;
-      color: white;
-      font-size: 0.9800rem;
-      font-weight: 100;
-      line-height: 23px;
-      margin-left: 10px;
-    }
+  .container {
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
   }
+
+  .topo {
+    text-align: center;
+  }
+
+  .topo .texto h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .topo .texto .titulo {
+    font-weight: 500;
+    color: hsl(303, 10%, 53%);
+    margin-bottom: 20px;
+  }
+
+  .rating{
+    margin-bottom: 30px;
+  }
+
+  .rating .rated {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    margin-bottom: 12px;
+    height: 70px;
+  }
+
+  .rating .rated .imagem {
+    margin-bottom: 5px;
+  }
+
+  .rating .rated p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+
+  /* bottom */
+
+  .card {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .card .perfil {
+    display: flex;
+    padding: 30px;
+    margin-bottom: 20px;
+    
+  }
+
+  .card .perfil img {
+    width: 40px;
+    border-radius: 40px;
+  }
+
+  .card .perfil .conta {
+    margin-top: 4px;
+    margin-left: 25px;
+    
+  }
+
+  .card .perfil .conta .name {
+    color: white;
+    font-weight: 500;
+    font-size: 0.800rem;
+    margin-bottom: 3px;
+  }
+
+  .card .perfil .conta .verified {
+    color: white;
+    font-weight: 400;
+    font-size: 0.800rem;
+    color: hsl(333, 80%, 67%);
+  }
+
+  .description{
+    margin-top: -30px;
+    padding: 20px;
+    color: white;
+    font-size: 0.9800rem;
+    font-weight: 100;
+    line-height: 23px;
+    margin-left: 10px;
+  }
+}
