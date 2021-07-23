@@ -1,4 +1,5 @@
-.container{
+@media screen and (min-width: 1024px) {
+  .container {
     border: 1px solid black;
     max-width: 1440px;
     height: auto;
@@ -6,6 +7,27 @@
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+  }
 
+  .topo {
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .topo .texto {
+    max-width: 50%;
+  }
+
+  .topo .texto h1 {
+    border: 1px solid pink;
+    max-width: 300px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .topo .rating {
+    max-width: 50%;
+  }
+}

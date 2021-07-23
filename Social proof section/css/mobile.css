@@ -1,9 +1,11 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 250px) and (max-width: 768px){
   .container {
     height: auto;
-    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
     display: flex;
-    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
   }
 
   .topo {
