@@ -1,7 +1,6 @@
 @media screen and (min-width: 250px) and (max-width: 768px){
   .container {
     height: auto;
-    margin: auto;
     margin-top: 10px;
     display: flex;
     padding: 20px;
@@ -23,6 +22,7 @@
     font-weight: 500;
     color: hsl(303, 10%, 53%);
     margin-bottom: 20px;
+    letter-spacing: -0.04rem;
   }
 
   .rating{
