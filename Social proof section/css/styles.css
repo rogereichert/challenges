@@ -1,6 +1,5 @@
 @media screen and (min-width: 769px) {
   .container {
-    
     max-width: 1440px;
     height: auto;
     margin: auto;
@@ -14,11 +13,12 @@
     display: flex;
     margin-bottom: 40px;
     margin-top: 50px;
+    padding: 10px;
+    
   }
 
   .topo .texto {
     width: 50%;
-    border: 1px solid black;
   }
 
   .topo .texto h1 {
@@ -27,7 +27,7 @@
     margin-bottom: 15px;
   }
 
-  .topo .titulo{
+  .topo .titulo {
     line-height: 23px;
     font-size: 15px;
     color: hsl(303, 10%, 53%);
@@ -36,7 +36,6 @@
   }
 
   .rating {
-    border: 1px solid black;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -44,21 +43,81 @@
     align-items: center;
   }
 
-  .rating .rated{
+  .rating .rated {
     width: 50%;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 50px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding: 15px;
   }
 
-  .rating .rated1{
-    margin-left: 15%;
-  }  
+  .rating .rated p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.01rem;
+  }
 
-  .rating .rated2{
+  .rating .rated1 {
+    margin-left: 15%;
+  }
+
+  .rating .rated2 {
     margin-left: 30%;
+  }
+
+  .bottom {
+   
+    display: flex;
+    margin-top: 100px;
+  }
+
+  .bottom .card {
+    margin: 10px;
+    height: 280px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .bottom .card .perfil {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .bottom .card .perfil img {
+    width: 40px;
+    border-radius: 40px;
+  }
+
+  .bottom .card .perfil .conta{
+    margin-left: 20px;
+  }
+
+  .bottom .card .perfil .conta .name {
+    color: white;
+    font-weight: 500;
+    font-size: 0.800rem;
+    margin-bottom: 3px;
+  }
+
+  .bottom .card .perfil .conta .verified {
+    font-weight: 400;
+    font-size: 0.800rem;
+    color: hsl(333, 80%, 67%);
+  }
+
+  .bottom .card .description{
+    margin-top: 50px;
+    color: white;
+    font-size: 0.9800rem;
+    font-weight: 100;
+    line-height: 23px;
+    
   }  
 
 }
