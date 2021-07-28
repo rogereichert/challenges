@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 375px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "community"
+        "subscription"
+        "why"
+    ;
+}
+
+.community{
+    height: auto;
+    grid-area: community;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.community .join{
+    color: hsl(179, 62%, 43%);
+    font-size: 1.4rem;
+    margin: 20px 0;
+}
+
+.community .day{
+    font-size: 1.04rem;
+    color: hsl(71, 73%, 54%);
+    margin: 20px 0;
+}
+
+.community .text{
+    width: 320px;
+    font-size: 0.99rem;
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+}
+
+.subscription{
+    grid-area: subscription;
+    padding: 20px;
+       
+}
+
+.why{
+    grid-area: why;
+    padding: 20px;
+    border: 1px solid black;   
+}
