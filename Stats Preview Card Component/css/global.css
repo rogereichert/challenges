@@ -11,6 +11,10 @@ body {
   font-size: 15px;
 }
 
+.container{
+  background-color: hsl(244, 38%, 16%);
+}
+
 h1, .number{
     color: hsl(0, 0%, 100%);
 }
