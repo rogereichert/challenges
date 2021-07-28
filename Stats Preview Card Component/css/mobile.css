@@ -1,0 +1,75 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media screen and (min-width: 250px) and (max-width: 768px) {
+  .container {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 40px;
+  }
+
+  .fundo {
+    background: hsl(277, 64%, 61%);
+    border-radius: 10px 10px 0 0;
+    width: 340px;
+    height: 250px;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 99;
+  }
+
+  .context {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .context .get {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .context .discover {
+    width: 80%;
+    margin-bottom: 20px;
+    line-height: 23px;
+  }
+
+  .text{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+
+  .text .numbers{
+      margin: 10px;
+  }
+
+  .text .numbers .number{
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 5px;
+  }
+
+  .text .numbers .subtitle{
+    font-size: 0.750rem;
+    font-weight: 200;
+}
+}
