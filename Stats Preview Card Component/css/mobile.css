@@ -49,27 +49,27 @@ body {
     line-height: 23px;
   }
 
-  .text{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin-bottom: 30px;
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
   }
 
-  .text .numbers{
-      margin: 10px;
+  .text .numbers {
+    margin: 10px;
   }
 
-  .text .numbers .number{
-      font-size: 1.5rem;
-      font-weight: 700;
-      margin-bottom: 5px;
+  .text .numbers .number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
   }
 
-  .text .numbers .subtitle{
-    font-size: 0.750rem;
+  .text .numbers .subtitle {
+    font-size: 0.75rem;
     font-weight: 200;
-}
+  }
 }
