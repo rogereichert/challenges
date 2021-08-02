@@ -1,0 +1,74 @@
+@media screen and (min-width: 1024px){
+    .container{
+       width: 1440px;
+        display: flex;
+        margin: auto;
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 10px;
+    }
+
+    .context{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        justify-content: center;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        margin-bottom: 50px;
+    }
+
+    .title{
+        width: 45%;
+        margin-bottom: 10px;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 20px;
+    }
+
+    .insights{
+        color: hsl(277, 64%, 61%);
+    }
+
+    .subtext{
+        width: 70%;
+    }
+
+    .discover{
+        width: 65%;
+        font-size: 14px;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    .image{
+        width: 546px;
+        height: 446px;
+    }
+
+    img{
+        width: 546px;
+        height: 446px;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .numbers{
+        display: flex;
+        width: 55%;
+        justify-content: space-between;
+    }
+
+    h2{
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+    }
+
+    .values{
+        font-size: 0.750rem;
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+
+}
+

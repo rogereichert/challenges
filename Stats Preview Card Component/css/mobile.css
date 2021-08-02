@@ -1,0 +1,62 @@
+@media screen and (min-width: 250px) and (max-width: 768px) {
+  .container {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 25px;
+  }
+
+  .context {
+    width: 100%;
+  }
+
+  .get {
+    margin: auto;
+    text-align: center;
+    max-width: 65%;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 14px;
+  }
+
+  .sub{
+    color: hsl(277, 64%, 61%);
+  }
+
+  .discover{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 35px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .text{
+    width: 100%;
+    text-align: center;
+  }
+
+  .number{
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 3px;
+  }
+
+  .subtitle{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 20px;
+  }
+
+
+}
